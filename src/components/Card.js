@@ -54,7 +54,7 @@ const Card = ({ taskObj, index, deleteTask, updateListArray }) => {
                 <div style={{ position: "absolute", top: "160px", left: "160px" }}>
                     <button style={{ color: colors[index % 5].primaryColor, cursor: "pointer" }} onClick={() => setModal(true)}>Edit</button>
                     <button style={{ color: colors[index % 5].primaryColor, cursor: "pointer" }} onClick={handleDelete}>Delete</button>
-                    <input type="checkbox" checked={completed} onChange={handleCheck} style={{ cursor: "pointer" }} /> Check
+                    <input type="checkbox" checked={completed} onChange={handleCheck} style={{ cursor: "pointer" }} />
                 </div>
             </div>
             <EditTask modal={modal} toggle={toggle} updateTask={updateTask} taskObj={taskObj} />

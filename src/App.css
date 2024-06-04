@@ -51,7 +51,8 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  background-color: #a76868;
+  color: #923232;
+  background: linear-gradient(to right, #eca0a0 270px, transparent 20px);
 }
 
 .card-header{
